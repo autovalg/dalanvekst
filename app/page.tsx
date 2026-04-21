@@ -67,10 +67,10 @@ export default function Home() {
         </div>
 
 {/* Mobile rings */}
-<div className="absolute left-1/2 top-[41%] h-[760px] w-[760px] -translate-x-1/2 -translate-y-1/2 md:hidden">
-  <div className="absolute left-1/2 top-[41%] h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
-  <div className="absolute left-1/2 top-[41%] h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
-  <div className="absolute left-1/2 top-[41%] h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+<div className="absolute left-1/2 top-[40%] h-[760px] w-[760px] -translate-x-1/2 -translate-y-1/2 md:hidden">
+  <div className="absolute left-1/2 top-[40%] h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+  <div className="absolute left-1/2 top-[40%] h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+  <div className="absolute left-1/2 top-[40%] h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
 
   <div
     className="absolute left-1/2 top-[41%] h-[220px] w-[220px] rounded-full border border-[#000080]"
@@ -117,8 +117,8 @@ export default function Home() {
         />
 
         {/* Mobile glow */}
-<div className="absolute left-1/2 top-[41%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/38 blur-[120px] md:hidden" />
-<div className="absolute left-1/2 top-[41%] h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/24 blur-[70px] md:hidden" />
+<div className="absolute left-1/2 top-[42%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/38 blur-[120px] md:hidden" />
+<div className="absolute left-1/2 top-[42%] h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/24 blur-[70px] md:hidden" />
       </div>
 
       {/* HEADER */}
