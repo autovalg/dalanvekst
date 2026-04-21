@@ -67,10 +67,10 @@ export default function Home() {
         </div>
 
 {/* Mobile rings */}
-<div className="absolute left-1/2 top-[43%] h-[760px] w-[760px] -translate-x-1/2 -translate-y-1/2 md:hidden">
-  <div className="absolute left-1/2 top-1/2 h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
-  <div className="absolute left-1/2 top-1/2 h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
-  <div className="absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+<div className="absolute left-1/2 top-[38%] h-[760px] w-[760px] -translate-x-1/2 -translate-y-1/2 md:hidden">
+  <div className="absolute left-1/2 top-[38%] h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+  <div className="absolute left-1/2 top-[38%] h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+  <div className="absolute left-1/2 top-[38%] h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
 
   <div
     className="absolute left-1/2 top-1/2 h-[220px] w-[220px] rounded-full border border-[#000080]"
@@ -117,8 +117,8 @@ export default function Home() {
         />
 
         {/* Mobile glow */}
-<div className="absolute left-1/2 top-[43%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/38 blur-[120px] md:hidden" />
-<div className="absolute left-1/2 top-[43%] h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/24 blur-[70px] md:hidden" />
+<div className="absolute left-1/2 top-[38%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/38 blur-[120px] md:hidden" />
+<div className="absolute left-1/2 top-[38%] h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/24 blur-[70px] md:hidden" />
       </div>
 
       {/* HEADER */}
@@ -316,7 +316,7 @@ export default function Home() {
   id="mobile-contact-form"
   action="https://formsubmit.co/post@dalanvekst.no"
   method="POST"
-  className="mt-20 w-full space-y-3"
+  className="mt-22 w-full space-y-3"
 >
           <input
             type="hidden"
