@@ -88,7 +88,7 @@ export default function KontaktPage() {
 
               <a
                 href="/kontakt"
-                className="inline-flex items-center rounded-full border border-white/25 px-4 py-2 text-[14px] font-semibold tracking-[-0.015em] text-white transition hover:bg-white/10 sm:px-6 sm:py-3"
+                className="hidden text-[15px] font-medium tracking-[-0.015em] text-white/78 transition hover:text-white md:block"
               >
                 Kontakt
               </a>
