@@ -66,34 +66,34 @@ export default function Home() {
           />
         </div>
 
-        {/* Mobile rings */}
-        <div className="absolute left-1/2 top-[52%] h-[760px] w-[760px] -translate-x-1/2 -translate-y-1/2 md:hidden">
-          <div className="absolute left-1/2 top-1/2 h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
-          <div className="absolute left-1/2 top-1/2 h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
-          <div className="absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+{/* Mobile rings */}
+<div className="absolute left-1/2 top-[43%] h-[760px] w-[760px] -translate-x-1/2 -translate-y-1/2 md:hidden">
+  <div className="absolute left-1/2 top-1/2 h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+  <div className="absolute left-1/2 top-1/2 h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
+  <div className="absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#000080]" />
 
-          <div
-            className="absolute left-1/2 top-1/2 h-[220px] w-[220px] rounded-full border border-[#000080]"
-            style={{
-              transform: "translate(-50%, -50%)",
-              animation: "ringBreathInner 3s linear infinite",
-            }}
-          />
-          <div
-            className="absolute left-1/2 top-1/2 h-[340px] w-[340px] rounded-full border border-[#000080]"
-            style={{
-              transform: "translate(-50%, -50%)",
-              animation: "ringBreathMiddle 3s linear infinite",
-            }}
-          />
-          <div
-            className="absolute left-1/2 top-1/2 h-[460px] w-[460px] rounded-full border border-[#000080]"
-            style={{
-              transform: "translate(-50%, -50%)",
-              animation: "ringBreathOuter 3s linear infinite",
-            }}
-          />
-        </div>
+  <div
+    className="absolute left-1/2 top-1/2 h-[220px] w-[220px] rounded-full border border-[#000080]"
+    style={{
+      transform: "translate(-50%, -50%)",
+      animation: "ringBreathInner 3s linear infinite",
+    }}
+  />
+  <div
+    className="absolute left-1/2 top-1/2 h-[340px] w-[340px] rounded-full border border-[#000080]"
+    style={{
+      transform: "translate(-50%, -50%)",
+      animation: "ringBreathMiddle 3s linear infinite",
+    }}
+  />
+  <div
+    className="absolute left-1/2 top-1/2 h-[460px] w-[460px] rounded-full border border-[#000080]"
+    style={{
+      transform: "translate(-50%, -50%)",
+      animation: "ringBreathOuter 3s linear infinite",
+    }}
+  />
+</div>
       </div>
 
       {/* MOVING GLOW */}
@@ -117,8 +117,8 @@ export default function Home() {
         />
 
         {/* Mobile glow */}
-        <div className="absolute left-1/2 top-[52%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/38 blur-[120px] md:hidden" />
-        <div className="absolute left-1/2 top-[52%] h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/24 blur-[70px] md:hidden" />
+<div className="absolute left-1/2 top-[43%] h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/38 blur-[120px] md:hidden" />
+<div className="absolute left-1/2 top-[43%] h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#A61A31]/24 blur-[70px] md:hidden" />
       </div>
 
       {/* HEADER */}
@@ -296,8 +296,8 @@ export default function Home() {
       </div>
 
       {/* MOBILE HERO + FORM */}
-      <section className="relative z-[10] mx-auto w-full max-w-[420px] px-5 pb-12 pt-10 text-center md:hidden">
-        <div className="flex min-h-[62vh] flex-col items-center justify-center">
+      <section className="relative z-[10] mx-auto w-full max-w-[420px] px-5 pb-16 pt-10 text-center md:hidden">
+        <div className="flex min-h-[68vh] flex-col items-center justify-center">
           <button
             type="button"
             onClick={scrollToMobileForm}
@@ -313,11 +313,11 @@ export default function Home() {
         </div>
 
         <form
-          id="mobile-contact-form"
-          action="https://formsubmit.co/post@dalanvekst.no"
-          method="POST"
-          className="mt-4 w-full space-y-3"
-        >
+  id="mobile-contact-form"
+  action="https://formsubmit.co/post@dalanvekst.no"
+  method="POST"
+  className="mt-20 w-full space-y-3"
+>
           <input
             type="hidden"
             name="_subject"
