@@ -186,7 +186,7 @@ export default function OmOssPage() {
                 href="/kontakt"
                 className="inline-flex items-center rounded-full bg-[#A61A31] px-6 py-3 text-[14px] font-semibold tracking-[-0.015em] text-white transition hover:scale-[1.02] hover:bg-[#8f172a]"
               >
-                Ta kontakt i dag
+                Ta kontakt i da
               </a>
             </div>
           </div>
