@@ -112,12 +112,6 @@ export default function KontaktPage() {
               post@dalanvekst.no
             </a>
 
-            <a
-              href="tel:+4790233597"
-              className="block text-[20px] md:text-[22px] font-medium hover:text-white/80 transition"
-            >
-              +47 902 33 597
-            </a>
           </div>
         </div>
       </div>
